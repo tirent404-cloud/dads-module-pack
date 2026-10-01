@@ -1,0 +1,738 @@
+{
+  "id": "dads-module-pack",
+  "title": "DADs Foundry Module Pack",
+  "description": "Dependency-only module pack generated from the DADs BBMM export. Installing this package prompts Foundry VTT to install all resolvable required modules.",
+  "version": "1.0.0",
+  "type": "module",
+  "authors": [
+    {
+      "name": "DADs Guild"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "3ds-atlas",
+        "type": "module"
+      },
+      {
+        "id": "5e-statblock-importer",
+        "type": "module"
+      },
+      {
+        "id": "CautiousGamemastersPack",
+        "type": "module"
+      },
+      {
+        "id": "LockView",
+        "type": "module"
+      },
+      {
+        "id": "_chatcommands",
+        "type": "module"
+      },
+      {
+        "id": "adv-vault-of-starless-design",
+        "type": "module"
+      },
+      {
+        "id": "advanced-macros",
+        "type": "module"
+      },
+      {
+        "id": "advdis-badges",
+        "type": "module"
+      },
+      {
+        "id": "aetherial-expanse",
+        "type": "module"
+      },
+      {
+        "id": "auraeffects",
+        "type": "module"
+      },
+      {
+        "id": "autoanimations",
+        "type": "module"
+      },
+      {
+        "id": "automated-evocations",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-ancestries-dads",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-ancestries-demigods",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-ancestries-dragons-dnd5e",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-ancestries-fusions",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-ancestries-living-legends-5e",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-ancestries-year-of-titans-dnd5e",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-bestiary-dnd5e",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-bestiary-es-dnd5e",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-bestiary-su-dnd5e",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-dragons-battle-dragons-dnd5e",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-dragons-fairy-dragons-dnd5e",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-dragons-misfit-dragons-dnd5e",
+        "type": "module"
+      },
+      {
+        "id": "battlezoo-immortals",
+        "type": "module"
+      },
+      {
+        "id": "bbmm",
+        "type": "module"
+      },
+      {
+        "id": "beneos-module",
+        "type": "module"
+      },
+      {
+        "id": "blind-death-saves",
+        "type": "module"
+      },
+      {
+        "id": "bondsmith",
+        "type": "module"
+      },
+      {
+        "id": "boss-effect-reminder",
+        "type": "module"
+      },
+      {
+        "id": "breaktime",
+        "type": "module"
+      },
+      {
+        "id": "bts-book-spirits",
+        "type": "module"
+      },
+      {
+        "id": "cat",
+        "type": "module"
+      },
+      {
+        "id": "chatlog-prune",
+        "type": "module"
+      },
+      {
+        "id": "chris-premades",
+        "type": "module"
+      },
+      {
+        "id": "cleaner-sheet-title-bar",
+        "type": "module"
+      },
+      {
+        "id": "combat-tracker-dock",
+        "type": "module"
+      },
+      {
+        "id": "corns-combat-reminders",
+        "type": "module"
+      },
+      {
+        "id": "crafting-console",
+        "type": "module"
+      },
+      {
+        "id": "dae",
+        "type": "module"
+      },
+      {
+        "id": "dd-import",
+        "type": "module"
+      },
+      {
+        "id": "ddb-importer",
+        "type": "module"
+      },
+      {
+        "id": "ddb-sync",
+        "type": "module"
+      },
+      {
+        "id": "death-effect-reminder",
+        "type": "module"
+      },
+      {
+        "id": "death-effect-reminder-dnd5e",
+        "type": "module"
+      },
+      {
+        "id": "death-ledger",
+        "type": "module"
+      },
+      {
+        "id": "dfreds-convenient-effects",
+        "type": "module"
+      },
+      {
+        "id": "dfreds-droppables",
+        "type": "module"
+      },
+      {
+        "id": "dfreds-effects-panel",
+        "type": "module"
+      },
+      {
+        "id": "dice-calculator",
+        "type": "module"
+      },
+      {
+        "id": "dice-so-nice",
+        "type": "module"
+      },
+      {
+        "id": "dice-vfx",
+        "type": "module"
+      },
+      {
+        "id": "dnd-adventures-faerun",
+        "type": "module"
+      },
+      {
+        "id": "dnd-dungeon-masters-guide",
+        "type": "module"
+      },
+      {
+        "id": "dnd-forge-artificer",
+        "type": "module"
+      },
+      {
+        "id": "dnd-heroes-faerun",
+        "type": "module"
+      },
+      {
+        "id": "dnd-monster-manual",
+        "type": "module"
+      },
+      {
+        "id": "dnd-players-handbook",
+        "type": "module"
+      },
+      {
+        "id": "dnd-ravenloft-horrors-within",
+        "type": "module"
+      },
+      {
+        "id": "dnd-tashas-cauldron",
+        "type": "module"
+      },
+      {
+        "id": "dnd5e-animations",
+        "type": "module"
+      },
+      {
+        "id": "drakkenheim-core",
+        "type": "module"
+      },
+      {
+        "id": "drakkenheim-monsters",
+        "type": "module"
+      },
+      {
+        "id": "drakkenheim-scgd",
+        "type": "module"
+      },
+      {
+        "id": "dungeon-quill",
+        "type": "module"
+      },
+      {
+        "id": "dynamic-soundscapes",
+        "type": "module"
+      },
+      {
+        "id": "ec-zamanora-botw",
+        "type": "module"
+      },
+      {
+        "id": "ec-zamanora-maf",
+        "type": "module"
+      },
+      {
+        "id": "effectmacro",
+        "type": "module"
+      },
+      {
+        "id": "enhancedcombathud",
+        "type": "module"
+      },
+      {
+        "id": "enhancedcombathud-dnd5e",
+        "type": "module"
+      },
+      {
+        "id": "epic-rolls-5e",
+        "type": "module"
+      },
+      {
+        "id": "exalted-scenes",
+        "type": "module"
+      },
+      {
+        "id": "fa-battlemaps",
+        "type": "module"
+      },
+      {
+        "id": "fabricate",
+        "type": "module"
+      },
+      {
+        "id": "filepicker-plus",
+        "type": "module"
+      },
+      {
+        "id": "foundry-taskbar",
+        "type": "module"
+      },
+      {
+        "id": "fuzzy-foundry",
+        "type": "module"
+      },
+      {
+        "id": "fvtt-paper-doll-ui",
+        "type": "module"
+      },
+      {
+        "id": "fvtt-perf-optim",
+        "type": "module"
+      },
+      {
+        "id": "fxmaster",
+        "type": "module"
+      },
+      {
+        "id": "gm-vision",
+        "type": "module"
+      },
+      {
+        "id": "grim-hollow-campaign-guide",
+        "type": "module"
+      },
+      {
+        "id": "grim-hollow-core",
+        "type": "module"
+      },
+      {
+        "id": "grim-hollow-players-guide",
+        "type": "module"
+      },
+      {
+        "id": "healthEstimate",
+        "type": "module"
+      },
+      {
+        "id": "heavy-lore",
+        "type": "module"
+      },
+      {
+        "id": "heliana-core",
+        "type": "module"
+      },
+      {
+        "id": "hero-mancer",
+        "type": "module"
+      },
+      {
+        "id": "house-divided",
+        "type": "module"
+      },
+      {
+        "id": "hover-distance",
+        "type": "module"
+      },
+      {
+        "id": "hurry-up",
+        "type": "module"
+      },
+      {
+        "id": "image-context",
+        "type": "module"
+      },
+      {
+        "id": "image-hover",
+        "type": "module"
+      },
+      {
+        "id": "inactive-tokens-lmao",
+        "type": "module"
+      },
+      {
+        "id": "item-piles",
+        "type": "module"
+      },
+      {
+        "id": "itempilesdnd5e",
+        "type": "module"
+      },
+      {
+        "id": "ivan-duch-music-packs",
+        "type": "module"
+      },
+      {
+        "id": "levels",
+        "type": "module"
+      },
+      {
+        "id": "lib-dfreds-migrations",
+        "type": "module"
+      },
+      {
+        "id": "lib-dfreds-ui-extender",
+        "type": "module"
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      },
+      {
+        "id": "liliths-enchiridion-of-the-penumbral-hells",
+        "type": "module"
+      },
+      {
+        "id": "lock-picking",
+        "type": "module"
+      },
+      {
+        "id": "lordudice",
+        "type": "module"
+      },
+      {
+        "id": "mastercrafted",
+        "type": "module"
+      },
+      {
+        "id": "mcdm-class-bundle",
+        "type": "module"
+      },
+      {
+        "id": "mcdm-flee-mortals-where-evil-lives",
+        "type": "module"
+      },
+      {
+        "id": "merchant-presets",
+        "type": "module"
+      },
+      {
+        "id": "midi-item-showcase-community",
+        "type": "module"
+      },
+      {
+        "id": "midi-qol",
+        "type": "module"
+      },
+      {
+        "id": "mindful-encounters",
+        "type": "module"
+      },
+      {
+        "id": "minstrel",
+        "type": "module"
+      },
+      {
+        "id": "mob-attack-tool",
+        "type": "module"
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module"
+      },
+      {
+        "id": "monks-chat-timer",
+        "type": "module"
+      },
+      {
+        "id": "monks-combat-details",
+        "type": "module"
+      },
+      {
+        "id": "monks-common-display",
+        "type": "module"
+      },
+      {
+        "id": "monks-little-details",
+        "type": "module"
+      },
+      {
+        "id": "monks-scene-navigation",
+        "type": "module"
+      },
+      {
+        "id": "monks-tokenbar",
+        "type": "module"
+      },
+      {
+        "id": "moulinette",
+        "type": "module"
+      },
+      {
+        "id": "multi-token-edit",
+        "type": "module"
+      },
+      {
+        "id": "multilevel-tokens",
+        "type": "module"
+      },
+      {
+        "id": "my-new-module",
+        "type": "module"
+      },
+      {
+        "id": "my-shared-compendia",
+        "type": "module"
+      },
+      {
+        "id": "ocean",
+        "type": "module"
+      },
+      {
+        "id": "orelyns-opus-of-outstanding-objects",
+        "type": "module"
+      },
+      {
+        "id": "origin-vault",
+        "type": "module"
+      },
+      {
+        "id": "originate",
+        "type": "module"
+      },
+      {
+        "id": "owned-and-imported-compilation",
+        "type": "module"
+      },
+      {
+        "id": "parlor",
+        "type": "module"
+      },
+      {
+        "id": "parlor-themes-tavern",
+        "type": "module"
+      },
+      {
+        "id": "party-monitor-dock",
+        "type": "module"
+      },
+      {
+        "id": "peddler",
+        "type": "module"
+      },
+      {
+        "id": "performance-optimizer",
+        "type": "module"
+      },
+      {
+        "id": "plutonium",
+        "type": "module"
+      },
+      {
+        "id": "plutonium-addon-automation",
+        "type": "module"
+      },
+      {
+        "id": "poi-teleport",
+        "type": "module"
+      },
+      {
+        "id": "portal-lib",
+        "type": "module"
+      },
+      {
+        "id": "puzzle-locks",
+        "type": "module"
+      },
+      {
+        "id": "quartermaster",
+        "type": "module"
+      },
+      {
+        "id": "quick-insert",
+        "type": "module"
+      },
+      {
+        "id": "remote-highlight-ui",
+        "type": "module"
+      },
+      {
+        "id": "ripper-premium-dice",
+        "type": "module"
+      },
+      {
+        "id": "roll-from-compendium",
+        "type": "module"
+      },
+      {
+        "id": "scene-packer",
+        "type": "module"
+      },
+      {
+        "id": "scenic3d",
+        "type": "module"
+      },
+      {
+        "id": "sequencer",
+        "type": "module"
+      },
+      {
+        "id": "sessionflow",
+        "type": "module"
+      },
+      {
+        "id": "simraki-character-monitor",
+        "type": "module"
+      },
+      {
+        "id": "smarttarget",
+        "type": "module"
+      },
+      {
+        "id": "socketlib",
+        "type": "module"
+      },
+      {
+        "id": "songs-of-the-spellbound-sea",
+        "type": "module"
+      },
+      {
+        "id": "splatter",
+        "type": "module"
+      },
+      {
+        "id": "spotlight-omnisearch",
+        "type": "module"
+      },
+      {
+        "id": "starlight-arcana",
+        "type": "module"
+      },
+      {
+        "id": "tabletop-rpg-music",
+        "type": "module"
+      },
+      {
+        "id": "tagger",
+        "type": "module"
+      },
+      {
+        "id": "the-crooked-moon-2014",
+        "type": "module"
+      },
+      {
+        "id": "the-ichorous-peninsula",
+        "type": "module"
+      },
+      {
+        "id": "the-stockpile",
+        "type": "module"
+      },
+      {
+        "id": "theripper-premium-hub",
+        "type": "module"
+      },
+      {
+        "id": "tidy5e-sheet",
+        "type": "module"
+      },
+      {
+        "id": "tile-scroll",
+        "type": "module"
+      },
+      {
+        "id": "token-z",
+        "type": "module"
+      },
+      {
+        "id": "tokenmagic",
+        "type": "module"
+      },
+      {
+        "id": "torch",
+        "type": "module"
+      },
+      {
+        "id": "trs-metal-rainbow",
+        "type": "module"
+      },
+      {
+        "id": "trs-norse-dd-boneyard",
+        "type": "module"
+      },
+      {
+        "id": "trs-norse-dd-torturechamber",
+        "type": "module"
+      },
+      {
+        "id": "usdm-anth-1",
+        "type": "module"
+      },
+      {
+        "id": "usdm-anth-2",
+        "type": "module"
+      },
+      {
+        "id": "usdmse-wicked-be-damned",
+        "type": "module"
+      },
+      {
+        "id": "vtta-tokenizer",
+        "type": "module"
+      },
+      {
+        "id": "weapons-of-lore",
+        "type": "module"
+      },
+      {
+        "id": "zoom-pan-options",
+        "type": "module"
+      },
+      {
+        "id": "xxxxxxxxx",
+        "type": "module"
+      },
+      {
+        "id": "xxxxxxxxx-addon-automation",
+        "type": "module"
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/tirent404-cloud/dads-module-pack/main/module.json",
+  "download": "https://raw.githubusercontent.com/tirent404-cloud/dads-module-pack/main/dads-module-pack-final.zip"
+}
